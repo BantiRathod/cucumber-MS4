@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8925" started-at="2021-11-08T23:40:35 IST" finished-at="2021-11-08T23:40:44 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runners.TestRunner@58c1670b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="8925" started-at="2021-11-08T23:40:35 IST" finished-at="2021-11-08T23:40:44 IST">
+      <class name="com.mindtree.runners.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.mindtree.runners.TestRunner@58c1670b]" name="setUpClass" is-config="true" duration-ms="291" started-at="2021-11-08T23:40:35 IST" finished-at="2021-11-08T23:40:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runners.TestRunner@58c1670b]" name="runScenario" duration-ms="8159" started-at="2021-11-08T23:40:36 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-08T23:40:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Landing At Application Home Page Using URL."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Application Home Page Landing."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.mindtree.runners.TestRunner@58c1670b]" name="tearDownClass" is-config="true" duration-ms="12" started-at="2021-11-08T23:40:44 IST" finished-at="2021-11-08T23:40:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.mindtree.runners.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
